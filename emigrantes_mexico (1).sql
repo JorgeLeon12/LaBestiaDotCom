@@ -37,8 +37,9 @@ CREATE TABLE IF NOT EXISTS `emigrantes_mexico` (
   `Ubicacion_albergue` text CHARACTER SET latin1 COLLATE latin1_spanish_ci,
   `Tiempo_viajando` text CHARACTER SET latin1 COLLATE latin1_spanish_ci,
   `Acompañantes` int(11) DEFAULT NULL COMMENT 'SOLO NUMEROS',
+  `Identificador` varchar(6) NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 --
 -- Volcado de datos para la tabla `emigrantes_mexico`
