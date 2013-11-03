@@ -25,9 +25,9 @@ if(isset($_POST['paso']) && $_POST['paso'] == '1'){
     echo '<input type="hidden" name="paso" value="2" />';
 }else if(isset($_POST['paso']) && $_POST['paso'] == '2'){
 	if($_POST['paso2'] == '1'){
-    	$Query = 'SELECT id FROM checkin WHERE nombre = "'.$_POST['dato1'].'" AND referencia = "'.$_POST['dato2'].'"';
+    	$Query = 'SELECT identificador FROM checkin WHERE nombre = "'.$_POST['dato1'].'" AND referencia = "'.$_POST['dato2'].'"';
     }else if($_POST['paso2'] == '2'){
-    	$Query = 'SELECT id FROM checkin WHERE identificador = "'.$_POST['dato1'].'"';
+    	$Query = 'SELECT identificador FROM checkin WHERE identificador = "'.$_POST['dato1'].'"';
     }
 	$Dato = mysql_query($Query)or die(mysql_error());
     $rowDato = mysql_fetch_row($Dato);
