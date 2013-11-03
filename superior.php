@@ -41,7 +41,7 @@ echo '<!DOCTYPE html>
         <li class="active"><a href="empleo.php">Empleo</a></li>
 
         <li class="divider"></li>
-        <li class="has-dropdown"><a href="#">Casa</a>
+        <li class="has-dropdown"><a href="buscador.php">Casa</a>
           <ul class="dropdown">
             <li><a href="migrantes.php">Migrantes</a></li>
             <li class="divider"></li>
@@ -49,7 +49,7 @@ echo '<!DOCTYPE html>
             <li class="divider"></li>
             <li><a href="social.php">Social</a></li>
             <li class="divider"></li>
-            <li><a href="ubicacion.php.html">Ubicación</a></li>
+            <li><a href="actualizar.php">Ubicación</a></li>
             <li class="divider"></li>
 
           </ul>
@@ -59,14 +59,14 @@ echo '<!DOCTYPE html>
           <ul class="dropdown">
             <li><a href="registro.php">Registro</a></li>
             <li class="divider"></li>
-            <li><a href="ubicacion.php">Ubicación</a></li>
+            <li><a href="actualizar.php">Ubicación</a></li>
             <li class="divider"></li>
 
           </ul>
 
 
           <li class="divider"></li>
-          <li class="has-dropdown"><a href="#">Familia</a>
+          <li class="has-dropdown"><a href="buscador.php">Familia</a>
             <ul class="dropdown">
               <li><a href="buscador.php?paso=1&tipo=nombre">Buscar por nombre</a></li>
               <li class="divider"></li>
