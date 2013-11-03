@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<?php 
+echo '<!DOCTYPE html>
 <!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
@@ -10,7 +11,7 @@
   <link rel="stylesheet" href="css/home.css">
 
   <script src="js/vendor/custom.modernizr.js"></script>
-
+	
 
 </head>
 <body>
@@ -67,8 +68,9 @@
           <li class="divider"></li>
           <li class="has-dropdown"><a href="#">Familia</a>
             <ul class="dropdown">
-              <li><a href="skate.html">Información</a></li>
+              <li><a href="buscador.php?paso=1&tipo=nombre">Buscar por nombre</a></li>
               <li class="divider"></li>
+              <li><a href="buscador.php?paso=1">Bucar por C&oacute;digo</a></li>
             </ul>
 
           </li>
@@ -87,7 +89,7 @@
                 <input type="text">
               </div>
               <div class="small-4 columns">
-                <a href="#" class="button">B&uacute;squeda</a>
+			   <a href="#" class="button">B&uacute;squeda</a>
               </div>
             </div>
           </form>
@@ -105,44 +107,6 @@
   </div>
 
   <div class="row">
-    <div class="large-9 columns" style="border-radius: 5px">
-      <p>bdufbauibfuoaubvuoabgau</p>
-    </div>
-    <div class="large-3 columns" style="background-color:#3887FF;border-radius:10px">
-      <div align="center" style=" margin-top:5%">        
-        <a class="button" href="#">Registro</a>        
-      </div>
-      <div align="center" style=" margin-top:5%">        
-        <img width="150" src="img/Mapa.png"/>     
-      </div>
-      <div align="center">
-        <div class="large-5" style="margin-top:10%">
-          
-              <img width="50" src="img/facebook.png" />                
-              
-               <img width="50" src="img/twitter.png"/> 
-            
-        </div> 
-        	<div class="flex-video">
-        	<iframe width="140" height="81" src="//www.youtube.com/embed/VMzUpbjLziI" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>	
-        	
-      </div>
-    </div>
-
-    <script>
-    document.write('<script src=' +
-      ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-      '.js><\/script>')
-    </script>
-
-
-    <script src="js/foundation.min.js"></script>
-
-
-    <script>
-    $(document).foundation();
-    </script>
-  </body>
-  </html>
+    <div class="large-9 columns" style="border-radius: 5px">'
+			  ;
+?>

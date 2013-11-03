@@ -1,0 +1,53 @@
+@charset "utf-8";
+body {
+  background: #D4FAF5;
+  background-size:cover;
+}/* CSS Document */
+
+
+#info {
+	background: #D4FAF5;
+	margin-top: 30px;
+}
+
+fieldset {
+	background-color: #E1FAF9;
+	color:green;
+   font-size:medium;
+   font-style: normal;
+	border:1px solid #20CC5C;
+	border-radius: 10px;
+}
+.cuerpo {
+	margin-top: 100px;
+}
+
+.legend1{
+	background:#D4FAF5;
+	text-shadow: 0px 0px 10px #099;
+}
+
+label {
+	font-style: normal;
+	font-size: medium;
+	color: #000000;
+}
+legend {
+	background: #A2FFEC;	
+}
+.label1 {
+	margin-left: 290px;
+	margin-top: -132px;
+}
+.label2{
+	font-size: 20px;
+	color: #1BA62F;
+	text-align: right;
+}
+.image {
+	margin-right: 400px;
+	margin-top: 10px;
+}
+.legend2 {
+	
+}
