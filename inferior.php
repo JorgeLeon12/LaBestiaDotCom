@@ -2,10 +2,10 @@
 echo '
         <div class="large-3 columns" style="background-color:#3887FF; border-radius:10px; margin-top:25px">
           <div align="center" style=" margin-top:15%">        
-            <a class="button" href="#">Registro</a>        
+            <a class="button" href="registro.php">Registro</a>        
           </div>
-          <div align="center" style=" margin-top:5%">        
-            <img width="250" src="img/Mapa.png"/>     
+          <div align="center" style=" margin-top:5%"> <a href="mapa.html">       
+            <img width="250"  src="img/Mapa.png"/></a>     
           </div>
           <div align="center">
             <div class="large-5" style="margin-top:10%">

@@ -5,7 +5,7 @@ echo '<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Welcome to LaBestia.com</title>
+  <title>Welcome to No Pierdas Pista</title>
 
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/home.css">
@@ -18,7 +18,7 @@ echo '<!DOCTYPE html>
   <div  id="img_cover" src"../LaBestiaDotCom/img/primavera.jpg">
     <div class="row">
       <div class="large-12 colums">
-        <h1><font color="#FFFFFF">La Bestia</font></h1>
+        <h1><font color="#FFFFFF">No Pierdas Pista</font></h1>
       </div>
     </div>
   </div>
@@ -26,7 +26,7 @@ echo '<!DOCTYPE html>
     <ul class="title-area">
       <!-- Title Area -->
       <li class="name">
-        <h1><a href="#"><img src="../Imagenes/Background/gdlExtreme1.png"  width="100" height="100"/> </a></h1>
+        <h1><a href="#"><img src="img/Logo1.png"  width="100" height="100"/> </a></h1>
       </li>
       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
