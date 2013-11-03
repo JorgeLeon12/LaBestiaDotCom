@@ -1,8 +1,10 @@
 <?php
 include "superior.php";
 ?>
-      <div class="large-12 columns" align="center">
-        <div class="large-5">
+      
+        <div class="large-9 columns">
+        <div class="large-10 columns">
+        <div align="center">
           <fieldset><legend>Buscador</legend>
             <form action="buscador.php" method="post">
               <?php
@@ -46,7 +48,9 @@ include "superior.php";
             </form>
           </fieldset>
         </div>		
-      </div>                    
+      </div>
+      </div>  
+                       
     <?php
 include "inferior.php";
 ?>
