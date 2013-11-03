@@ -9,8 +9,10 @@ echo '
           </div>
           <div align="center">
             <div class="large-5" style="margin-top:10%">
-              <img width="50" src="img/facebook.png" />  
-              <img width="50" src="img/twitter.png"/> 
+              <a href="https://www.facebook.com/LaBestia2013?ref=hl" target="_blank">
+                <img width="50" src="img/facebook.png" /> </a> 
+              <a href="https://twitter.com/LaBestia2013" target="_blank">
+                <img width="50" src="img/twitter.png"/></a>
             </div> 
             <div class="flex-video">
               <iframe width="140" height="85" src="//www.youtube.com/embed/VMzUpbjLziI" frameborder="0" allowfullscreen></iframe>

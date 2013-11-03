@@ -43,10 +43,6 @@ echo '<!DOCTYPE html>
         <li class="divider"></li>
         <li class="has-dropdown"><a href="buscador.php">Casa</a>
           <ul class="dropdown">
-            <li><a href="migrantes.php">Migrantes</a></li>
-            <li class="divider"></li>
-            <li><a href="informacion.php.html">Información</a></li>
-            <li class="divider"></li>
             <li><a href="social.php">Social</a></li>
             <li class="divider"></li>
             <li><a href="actualizar.php">Ubicación</a></li>
