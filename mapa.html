@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/home.css">
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+	
+
+</head>
+<body>
+  <nav class="top-bar">
+    <ul class="title-area">
+        <h3><font color="#FFFFFF">La Bestia<font></h3>
+     
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+     
+    </ul>
+    <section class="top-bar-section">
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="divider"></li>
+        <li class="active"><a href="index.php">Inicio</a></li>
+
+        <li class="divider"></li>
+        <li class="active"><a href="empleo.php">Empleo</a></li>
+
+        <li class="divider"></li>
+        <li class="has-dropdown"><a href="buscador.php">Casa</a>
+          <ul class="dropdown">
+            <li><a href="migrantes.php">Migrantes</a></li>
+            <li class="divider"></li>
+            <li><a href="informacion.php.html">Información</a></li>
+            <li class="divider"></li>
+            <li><a href="social.php">Social</a></li>
+            <li class="divider"></li>
+            <li><a href="actualizar.php">Ubicación</a></li>
+            <li class="divider"></li>
+
+          </ul>
+          <li class="divider"></li>
+        </li>
+        <li class="has-dropdown"><a href="#">Migrantes</a>
+          <ul class="dropdown">
+            <li><a href="registro.php">Registro</a></li>
+            <li class="divider"></li>
+            <li><a href="actualizar.php">Ubicación</a></li>
+            <li class="divider"></li>
+
+          </ul>
+
+
+          <li class="divider"></li>
+          <li class="has-dropdown"><a href="buscador.php">Familia</a>
+            <ul class="dropdown">
+              <li><a href="buscador.php?paso=1&tipo=nombre">Buscar por nombre</a></li>
+              <li class="divider"></li>
+              <li><a href="buscador.php?paso=1">Buscar por C&oacute;digo</a></li>
+            </ul>
+          </li>
+          <li class="divider"></li>
+        </ul>
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="divider hide-for-small"></li>
+        </li>
+        <li class="divider"></li>
+        <li class="divider show-for-small"></li>
+        <li class="has-form">
+          <a class="button" href="/mapa.php">Pantalla Completa </a>
+          </div>
+            </div>        
+      </ul>
+    </section>
+  </nav>
+
+       <div style="width:100%; height:100%">       
+       <iframe src="/mapa.php"  style="height:85%; width:100%"> </iframe>
+       
+       
+       </div>
+       <div style="width:100%; height:10%; background-color:#3887FF">
+       <p>nuibi</p>
+       </div>
+       
+       
+       
+    <script>
+    document.write('<script src=' +
+      ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+      '.js><\/script>')
+    </script>
+
+
+    <script src="js/foundation.min.js"></script>
+
+
+    <script>
+    $(document).foundation();
+    </script>
+  </body>
+  </html>

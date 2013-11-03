@@ -1,4 +1,8 @@
 <?php
+include "superior.php";
+?>
+
+<?php
 include 'sql.php';
 
 $nombre = addslashes($_POST['nombre']);
