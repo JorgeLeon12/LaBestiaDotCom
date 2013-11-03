@@ -9,7 +9,7 @@ include "superior.php";
 			<div class="large-12"  align="center"  style="width:100%; height:100%">  
 				<?php
 				include "sql.php";
-				$Datos = mysql_query('SELECT nombre, ciudadO, fechaActual, acompannante, salud FROM checkin WHERE identificador = \''.$_GET['id'].'\' ORDER BY id DESC')or die(mysql_error());
+				$Datos = mysql_query('SELECT id, nombre, ciudadO, fechaActual, acompannante, salud, identificador FROM checkin WHERE identificador = \''.$_GET['id'].'\' ORDER BY id DESC')or die(mysql_error());
 				
 				while($rowDatos = mysql_fetch_array($Datos)){
 					if($rowDatos['acompannante'] > 0 ){
@@ -22,9 +22,11 @@ include "superior.php";
 					<h3>Nombre o Sobrenombre: '.$rowDatos['nombre'].'<br />
 					Ciudad de origen: '.$rowDatos['ciudadO'].'<br />
 					Ultima fecha: '.$Fecha[0].'<br />
-					Estado de Salud: '.$rowDatos['salud'].'<br />'.$Acomp."</h3>";
+					Estado de Salud: '.$rowDatos['salud'].'<br />'.$Acomp.'<br />
+					Codigo Unico: '.$rowDatos['identificador'].'
+					</h3>';
 				}
-				?>
+				echo '
 
 			</div>
 		</fieldset>
@@ -35,7 +37,7 @@ include "superior.php";
 	<div class="large-12 column">
 		<fieldset><legend>Ubicaci&oacute;n</legend>
 			<div class="large-12"  align="center"  style="width:100%; height:100%">    
-				<iframe src="Mapa.php?tipoMapa=1&ID=<?php echo $_GET['id'];?>" frameborder="0" style=" height:70%; width:100%;"></iframe>
+				<iframe src="Mapa.php?tipoMapa=1&ID='.$rowDatos['id'];?>" frameborder="0" style=" height:70%; width:100%;"></iframe>
 			</div>
 		</fieldset>
 	</div>
