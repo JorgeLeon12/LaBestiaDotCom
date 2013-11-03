@@ -1,11 +1,9 @@
 <?php
-include"superior.php";
+include "superior.php";
 ?>
-
-      <div class="large-9 columns">
-        <div class="large-4 columns"></div>
-        <div class="large-8 columns">
-       <fieldset><legend>Buscador</legend>
+      <div class="large-12 columns" align="center">
+        <div class="large-5">
+          <fieldset><legend>Buscador</legend>
             <form action="buscador.php" method="post">
               <?php
               include 'sql.php';
@@ -44,10 +42,11 @@ include"superior.php";
               }
               ?>
               <input type="submit" value="Buscar" />
+              <input type="hidden" name="tipoMapa" value="1" />
             </form>
           </fieldset>
-        </div>
-      </div>
-<?php
-include"inferior.php";
+        </div>		
+      </div>                    
+    <?php
+include "inferior.php";
 ?>
