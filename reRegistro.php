@@ -10,20 +10,21 @@ $tipo = addslashes($_POST['tipo']);
 $ubicacion = addslashes($_POST['ubicacion']);
 $tiempo = addslashes($_POST['tiempo']);
 $acompa = addslashes($_POST['acompa']);
+$sexo = addslashes($_POST['sexo']);
 
 $encontrado = false;
 while($encontrado == false){
 	$Text = TextRand(6,FALSE,TRUE,FALSE);
 	$Ident = mysql_query('SELECT identificador FROM checkin WHERE identificador = \''.$Text.'\'')or die(mysql_error());
-		if($Ident == FALSE){
-			$encontrado = false;
-		}else{
-			$encontrado = true;
-		}
+	if($Ident == FALSE){
+		$encontrado = false;
+	}else{
+		$encontrado = true;
+	}
 }
 $Text = strtoupper($Text);
 echo $Text;
-$Datos = 'INSERT INTO checkin(nombre, ciudadO, ciudadD, edad, parentescoRef, referencia, ubicasion, tiempoV, acompannante, identificador) VALUES("'.$nombre.'","'.$origen.'","'.$destino.'","'.$edad.'","'.$referencia.'","'.$tipo.'","'.$ubicacion.'","'.$tiempo.'","'.$acompa.'","'.$Text.'")';
+$Datos = 'INSERT INTO checkin(nombre, ciudadO, ciudadD, edad, parentescoRef, referencia, ubicasion, tiempoV, acompannante, identificador, sexo) VALUES("'.$nombre.'","'.$origen.'","'.$destino.'","'.$edad.'","'.$referencia.'","'.$tipo.'","'.$ubicacion.'","'.$tiempo.'","'.$acompa.'","'.$Text.'", "'.$sexo.'")';
 
 mysql_query($Datos)or die(mysql_error());
 
