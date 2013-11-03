@@ -49,7 +49,7 @@ echo '<!DOCTYPE html>
             <li class="divider"></li>
             <li><a href="social.php">Social</a></li>
             <li class="divider"></li>
-            <li><a href="ubicacion.php.html">Ubicación</a></li>
+            <li><a href="ubicacion.phpl">Ubicación</a></li>
             <li class="divider"></li>
 
           </ul>
@@ -59,7 +59,7 @@ echo '<!DOCTYPE html>
           <ul class="dropdown">
             <li><a href="registro.php">Registro</a></li>
             <li class="divider"></li>
-            <li><a href="ubicacion.php">Ubicación</a></li>
+            <li><a href="actualizar.php">Ubicación</a></li>
             <li class="divider"></li>
 
           </ul>

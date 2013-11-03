@@ -2,22 +2,24 @@
 include "superior.php";
 ?>
 
-<form action="reRegistro.php" method="post">
-  <fieldset>
-    <legend>Registro</legend>    
-    <div class="row">
+<div CLASS="large-9 columns">
+  <form action="reRegistro.php" method="post">
+    <fieldset>
+      <legend>Registro</legend>    
+      <div class="row">
 
-      <div class="large-8 columns">
-        <label>Nombre y/o Apodo</label>
-        <input type="text" size="60" name="nombre" id="nombre" class="TextBox" />
-      </div>
+        <div class="large-8 columns">
+          <label>Nombre y/o Apodo</label>
+          <input type="text" size="60" name="nombre" id="nombre" class="TextBox" />
+        </div>
 
-      <div class="large-2 columns">
-        <label>G&eacute;nero</label>
-        <select id="sexo" class="small">
-          <option  selected="selected" value="">Sin especificar</option>
-          <option value="M">Masculino</option>
-          <option value="F">Femenino</option></select>       
+        <div class="large-2 columns">
+          <label>G&eacute;nero</label>
+          <select id="sexo" class="small">
+            <option  selected="selected" value="">Sin especificar</option>
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+          </select>       
         </div>
 
         <div class="large-2 columns">
@@ -62,9 +64,10 @@ include "superior.php";
       </div>
     </fieldset>    
   </form>
+</div>
 
 
-  <?php
-  include "inferior.php";
-  ?>
+<?php
+include "inferior.php";
+?>
 
