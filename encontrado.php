@@ -37,7 +37,7 @@ include "superior.php";
 	<div class="large-12 column">
 		<fieldset><legend>Ubicaci&oacute;n</legend>
 			<div class="large-12"  align="center"  style="width:100%; height:100%">    
-				<iframe src="Mapa.php?tipoMapa=1&ID='.$rowDatos['id'];?>" frameborder="0" style=" height:70%; width:100%;"></iframe>
+				<iframe src="Mapa.php?tipoMapa=1&ID='.$_GET['id'];?>" frameborder="0" style=" height:70%; width:100%;"></iframe>
 			</div>
 		</fieldset>
 	</div>

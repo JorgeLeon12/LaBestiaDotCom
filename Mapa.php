@@ -151,9 +151,9 @@ function createMarker(map, latlng, label, html, color, drag){
 var beaches = [
 <?php
 	if(isset($_GET['tipoMapa']) && $_GET['tipoMapa'] == '1'){
-		$DATOSSS = mysql_query('SELECT * FROM checkin WHERE id = \''.$_GET['ID'].'\' ORDER BY id ASC');
-		while($rowDATOSS = mysql_fetch_array($DATOSSS)){
-			echo "['<b>".$rowDATOSS['nombre']."</b>', ".$rowDATOSS['latitud'].", ".$rowDATOSS['longitud'].", \"punteroGeo\"],";
+		$OMG2 = mysql_query('SELECT * FROM checkin WHERE identificador = \''.$_GET['ID'].'\' ORDER BY id ASC');
+		while($OMG = mysql_fetch_array($OMG2)){
+			echo "['<b>".$OMG['nombre']."</b><br>".$OMG['referencia']."', ".$OMG['latitud'].", ".$OMG['longitud'].", \"punteroGeo\"],";
 		}	
 	}else{
 		$OMG2 = mysql_query ('SELECT * FROM mapa ORDER BY id ASC');
