@@ -45,8 +45,8 @@ include "superior.php";
               <input type="hidden" name="tipoMapa" value="1" />
             </form>
           </fieldset>
-        </div>		
-      </div>                    
-    <?php
+        </div>
+      </div>
+<?php
 include "inferior.php";
 ?>
