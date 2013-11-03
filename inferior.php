@@ -5,7 +5,7 @@ echo '
             <a class="button" href="#">Registro</a>        
           </div>
           <div align="center" style=" margin-top:5%">        
-            <img width="150" src="img/Mapa.png"/>     
+            <img width="250" src="img/Mapa.png"/>     
           </div>
           <div align="center">
             <div class="large-5" style="margin-top:10%">
