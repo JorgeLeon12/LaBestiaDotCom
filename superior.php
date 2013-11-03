@@ -15,8 +15,8 @@ echo '<!DOCTYPE html>
 
 </head>
 <body>
-  <div class="row" >
-    <div class="large-12 columns" style="background-image:url(img/primavera.jpg); background-repeat:no-repeat; background-position:bottom">
+  <div  id="img_cover" src"../LaBestiaDotCom/img/primavera.jpg">
+    <div class="row">
       <div class="large-12 colums">
         <h1><font color="#FFFFFF">La Bestia</font></h1>
       </div>
@@ -70,7 +70,7 @@ echo '<!DOCTYPE html>
             <ul class="dropdown">
               <li><a href="buscador.php?paso=1&tipo=nombre">Buscar por nombre</a></li>
               <li class="divider"></li>
-              <li><a href="buscador.php?paso=1">Bucar por C&oacute;digo</a></li>
+              <li><a href="buscador.php?paso=1">Buscar por C&oacute;digo</a></li>
             </ul>
 
           </li>
@@ -81,18 +81,6 @@ echo '<!DOCTYPE html>
           <li class="divider hide-for-small"></li>
 
         </li>
-        <li class="divider"></li>
-        <li class="has-form">
-          <form>
-            <div class="row collapse">
-              <div class="small-8 columns">
-                <input type="text">
-              </div>
-              <div class="small-4 columns">
-         <a href="#" class="button">B&uacute;squeda</a>
-              </div>
-            </div>
-          </form>
         </li>
         <li class="divider show-for-small"></li>
         <li class="has-form">

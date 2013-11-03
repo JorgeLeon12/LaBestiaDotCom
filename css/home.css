@@ -4,6 +4,12 @@ body {
   background-size:cover;
 }/* CSS Document */
 
+#img_cover{
+	background: url(../img/primavera.jpg);
+  	background-size:cover;
+  	width: 100%;
+  	height: 90px;
+}
 
 #info {
 	background: #D4FAF5;
